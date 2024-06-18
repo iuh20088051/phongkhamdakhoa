@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('../../chatbotNPC/img/11.jpg'); /* Thay 'your-background-image.jpg' bằng đường dẫn tới hình nền của bạn */
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    padding-top: 50px;
+    text-align: center;
+    color: cyan;
+    font-size: 50px;
+}
+#chat-container {
+            width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        #chat-history {
+            height: 300px;
+            overflow-y: scroll;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            background: #f9f9f9;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .user-message, .bot-message {
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .user-message {
+            background-color: #f1f1f1;
+            text-align: right;
+            color: #000;
+            padding: 5px;
+            margin: 5px 0;
+            border-radius: 5px;
+        }
+        .bot-message {
+            background-color: #e6e6e6;
+            text-align: left;
+            color: #000;
+            padding: 5px;
+            margin: 5px 0;
+            border-radius: 5px;
+        }
+
